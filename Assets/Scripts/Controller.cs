@@ -6,6 +6,11 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
 
+/*
+    Не успел разрулить партикл систему.
+    Не допёр, как поступить с многовенным удалением кнопок, из-за чего не посмотреть bounce анимацию.
+*/
+
 public class Controller : MonoBehaviour
 {
     [System.Serializable]
@@ -202,6 +207,9 @@ public class Controller : MonoBehaviour
                 Впиливать сюда coroutine не кажется хорошей идеей, может надо было разрулить через Button анимации?
 
                 childTransform.DOPunchScale(new Vector3(0.1f, 0.1f, 1f), 0.3f, 2, 1f);
+
+                Практически та же история с партикл системой, которую я не успел сделать.
+                Скорее всего, ее лучше прикрутить к контроллеру и оттуда спавнить партикли на позиции нажатой кнопки и т.д.
             */
 
             // Progress
