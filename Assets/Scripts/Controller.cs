@@ -46,6 +46,7 @@ public class Controller : MonoBehaviour
     {
         DOTween.Init();
 
+        taskProgress = 1;
         Initialize(1, true);
     }
 
