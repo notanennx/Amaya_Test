@@ -25,6 +25,6 @@ public class Cell : MonoBehaviour
     // Pressed
     public void ButtonPressed()
     {
-        Controller.i.CheckCell(gameObject, sprite);
+        Controller.i.CheckCell(gameObject);
     }
 }
