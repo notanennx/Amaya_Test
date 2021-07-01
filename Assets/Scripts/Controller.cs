@@ -96,7 +96,7 @@ public class Controller : MonoBehaviour
             GameObject[] cells = GameObject.FindGameObjectsWithTag("Cell");
             for(var i=0 ; i<cells.Length ; i++)
             {
-                cells[i].transform.DOPunchScale(new Vector3(0.1f, 0.1f, 1f), 0.6f, 2, 1f);
+                cells[i].transform.DOPunchScale(new Vector3(0.1f, 0.1f, 1f), 0.6f, 8, 1f);
             }
         }
     }
@@ -233,6 +233,9 @@ public class Controller : MonoBehaviour
     {
         taskPool.Clear();
         fadeScreen.DOFade(0, 0.8f);
+
+        taskDescription.color = new Color(255f, 255f, 255f, 0f);
+        taskDescription.DOFade(1, 2f);
 
         Initialize(1, true);
         /*

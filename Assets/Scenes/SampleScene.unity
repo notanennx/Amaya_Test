@@ -490,10 +490,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86759812ce8bc164db6889e45edbfe81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  taskProgress: 1
-  taskEnabled: 0
   taskDescription: {fileID: 1576716282}
+  fadeScreen: {fileID: 2112312658}
+  restartButton: {fileID: 113855775}
+  cellPrefab: {fileID: 2594728888044920315, guid: fa37f5eb5a4ae264cac28d8e85839bf5,
+    type: 3}
   taskSprite: {fileID: 0}
+  taskPool: []
   skinsLibrary:
   - skinName: Cookies
     spriteList:
@@ -535,12 +538,6 @@ MonoBehaviour:
     - {fileID: 4461586319009975920, guid: 42a913240510d444da4f463803aeaa52, type: 3}
     - {fileID: -5001085640463096552, guid: 5e8240b758af27d42998223c404361b7, type: 3}
     - {fileID: 3539555106843919260, guid: 5e8240b758af27d42998223c404361b7, type: 3}
-  fadeScreen: {fileID: 2112312658}
-  restartButton: {fileID: 113855775}
-  cellPrefab: {fileID: 2594728888044920315, guid: fa37f5eb5a4ae264cac28d8e85839bf5,
-    type: 3}
-  spritePool: []
-  curPool: []
 --- !u!1 &833881713
 GameObject:
   m_ObjectHideFlags: 0
